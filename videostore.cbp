@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="videostore" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/videostore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/videostore" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/accttype.h" />
+		<Unit filename="include/customerListType.h" />
+		<Unit filename="include/customertype.h" />
+		<Unit filename="include/persontype.h" />
+		<Unit filename="include/rentedmovie.h" />
+		<Unit filename="include/rentedmoviestore.h" />
+		<Unit filename="linkedList.h" />
+		<Unit filename="src/accttype.cpp" />
+		<Unit filename="src/customerListType.cpp" />
+		<Unit filename="src/customertype.cpp" />
+		<Unit filename="src/persontype.cpp" />
+		<Unit filename="src/rentedmovie.cpp" />
+		<Unit filename="src/rentedmoviestore.cpp" />
+		<Unit filename="testVideoStore.cpp" />
+		<Unit filename="unorderedLinkedList.h" />
+		<Unit filename="videoListType.h" />
+		<Unit filename="videoListTypeImp.cpp" />
+		<Unit filename="videoType.h" />
+		<Unit filename="videoTypeImp.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
